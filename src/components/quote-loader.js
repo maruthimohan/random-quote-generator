@@ -2,6 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './quote-loader.scss';
 import axios from 'axios';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faQuoteLeft, faRedoAlt, faSyncAlt } from '@fortawesome/free-solid-svg-icons';
 
 class QuoteLoader extends React.Component {
     
@@ -60,7 +63,7 @@ class QuoteLoader extends React.Component {
             <div id="quote-page">
                 <div id="quote-box">
                     <div id="text" hidden={!this.state.quote.text}>
-                        {this.state.quote.text}
+                        <span className="double-quote"><FontAwesomeIcon icon={faQuoteLeft} /></span><span>{this.state.quote.text}</span>
                     </div>
                     <div id="author">
                         - {this.state.quote.author ? this.state.quote.author : 'Unknown'}
@@ -69,12 +72,15 @@ class QuoteLoader extends React.Component {
                         <a 
                             className="tweet-quote"
                             onClick={this.tweetTheQuote}>
-                            Tweet
+                            <FontAwesomeIcon icon={faTwitter} />
                         </a>
+                        <div className="app-name">
+                            Some Awesome Quotes.
+                        </div>
                         <button 
                             id="new-quote"
                             onClick={this.fetchARandomQuote}>
-                            New Quote
+                            <FontAwesomeIcon icon={faRedoAlt} />
                         </button>
                     </div>
                 </div>
