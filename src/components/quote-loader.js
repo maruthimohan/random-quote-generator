@@ -52,10 +52,10 @@ class QuoteLoader extends React.Component {
         const tweetText = encodeURIComponent(
             this.state.quote.text
             +' '
-            +(this.state.quote.author ? this.state.quote.author : 'Unknown')
+            +(this.state.quote.author ? '- ' + this.state.quote.author : '- Unknown')
         );
         const tweetUrl = `https://twitter.com/intent/tweet?text=${tweetText}&hashtags=quotes&related=freecodecamp`;
-        window.open(tweetUrl, '_blank');
+        return tweetUrl;
     }
 
     render() {
@@ -70,8 +70,11 @@ class QuoteLoader extends React.Component {
                     </div>
                     <div className="button-group">
                         <a 
+                            id="tweet-quote"
                             className="tweet-quote"
-                            onClick={this.tweetTheQuote}>
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href={this.tweetTheQuote()}>
                             <FontAwesomeIcon icon={faTwitter} />
                         </a>
                         <div className="app-name">

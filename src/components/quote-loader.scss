@@ -10,6 +10,7 @@ $sacramento-cursive: 'Sacramento', cursive;
     height: 100%;
     width: 100%;
     background-color: $primary-color;
+    animation: fadein 1s ease-out 1;
 }
 
 #quote-box {
