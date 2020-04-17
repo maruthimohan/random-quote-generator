@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/random-quote-generator/static/css/main.632f6140.chunk.css",
-    "main.js": "/random-quote-generator/static/js/main.edb0e8e4.chunk.js",
-    "main.js.map": "/random-quote-generator/static/js/main.edb0e8e4.chunk.js.map",
+    "main.css": "/random-quote-generator/static/css/main.9c268f31.chunk.css",
+    "main.js": "/random-quote-generator/static/js/main.6302eff8.chunk.js",
+    "main.js.map": "/random-quote-generator/static/js/main.6302eff8.chunk.js.map",
     "runtime-main.js": "/random-quote-generator/static/js/runtime-main.22a55c8c.js",
     "runtime-main.js.map": "/random-quote-generator/static/js/runtime-main.22a55c8c.js.map",
     "static/js/2.13ddc387.chunk.js": "/random-quote-generator/static/js/2.13ddc387.chunk.js",
     "static/js/2.13ddc387.chunk.js.map": "/random-quote-generator/static/js/2.13ddc387.chunk.js.map",
     "index.html": "/random-quote-generator/index.html",
-    "precache-manifest.878e3c3398ec1d2360b0ac307efaaa7e.js": "/random-quote-generator/precache-manifest.878e3c3398ec1d2360b0ac307efaaa7e.js",
+    "precache-manifest.d9d028bb69d0db962040cabb8cd0f3f9.js": "/random-quote-generator/precache-manifest.d9d028bb69d0db962040cabb8cd0f3f9.js",
     "service-worker.js": "/random-quote-generator/service-worker.js",
-    "static/css/main.632f6140.chunk.css.map": "/random-quote-generator/static/css/main.632f6140.chunk.css.map",
+    "static/css/main.9c268f31.chunk.css.map": "/random-quote-generator/static/css/main.9c268f31.chunk.css.map",
     "static/js/2.13ddc387.chunk.js.LICENSE.txt": "/random-quote-generator/static/js/2.13ddc387.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.22a55c8c.js",
     "static/js/2.13ddc387.chunk.js",
-    "static/css/main.632f6140.chunk.css",
-    "static/js/main.edb0e8e4.chunk.js"
+    "static/css/main.9c268f31.chunk.css",
+    "static/js/main.6302eff8.chunk.js"
   ]
 }
